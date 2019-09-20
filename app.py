@@ -26,10 +26,10 @@ def callback():
     userText = decoded['queryResult']['intent']['displayName']
     while True:
     if (nile == 'สวัสดี') :
-        userText('สวัสดีครับ')
-    elif (user == 'ทำไร') :
-        userText('นั่งนอนกลิ่ง')
-    elif (user == 'สบายดีไหม') :
+       userText('สวัสดีครับ')
+    elif (nile == 'ทำไร') :
+       userText('นั่งนอนกลิ่ง')
+    elif (nile == 'สบายดีไหม') :
        userText('สบายดีสบายมากเป็นอย่างเงี้ย')
     else :
         
